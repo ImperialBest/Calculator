@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <marquee behavior="" direction="right"> -->
+        <div class="timebox">
+          <h1 class="time"></h1>
+          <h1 class="time">:</h1>
+          <h1 class="time"></h1>
+          <h1 class="time">:</h1>
+          <h1 class="time"></h1>
+        </div>
+      </marquee>
+      <div>
+        <marquee behavior="" direction="left">
+          Imperial<sup>@</sup>Best
+        </marquee>
+      </div>
+      <input type="text" class="screen" readonly value="" />
+      <div class="buttonset">
+        <div class="button"><button onclick="New(9)">9</button></div>
+        <div class="button"><button onclick="New(8)">8</button></div>
+        <div class="button"><button onclick="New(7)">7</button></div>
+        <div class="button"><button onclick="New('.')">.</button></div>
+        <div class="button"><button onclick="New(6)">6</button></div>
+        <div class="button"><button onclick="New(5)">5</button></div>
+        <div class="button"><button onclick="New(4)">4</button></div>
+        <div class="button"><button onclick="New('*')">*</button></div>
+        <div class="button"><button onclick="New(3)">3</button></div>
+        <div class="button"><button onclick="New(2)">2</button></div>
+        <div class="button"><button onclick="New(1)">1</button></div>
+        <div class="button"><button onclick="New('+')">+</button></div>
+        <div class="button"><button onclick="New('/')">/</button></div>
+        <div class="button"><button onclick="New(0)">0</button></div>
+        <div class="button"><button onclick="New('-')">-</button></div>
+        <div class="button"><button onclick="Math1('=')">=</button></div>
+        <div class="button"><button onclick="Answer()">Ans</button></div>
+        <div class="button"><button onclick="New('^','**')">^</button></div>
+        <div class="button"><button onclick="DelKey()">DEL</button></div>
+        <div class="button"><button onclick="ClearAll()">AC</button></div>
+      </div>
+    </div>
+    <button id="but" onclick="Increm()">button</button><br /><br />
+    <button onclick="New(5)" id="target">Click</button><br /><br />
+    <script src="../Javascript/java.js"></script>
+  </body>
+</html>
