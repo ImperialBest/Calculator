@@ -52,7 +52,7 @@ function Time(){
   timeChange[3].style.visibility = theVisibility
 }
 // Time();
-setInterval(Time,5001)
+setInterval(Time,500)
 
 
 
