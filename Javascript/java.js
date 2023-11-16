@@ -30,7 +30,6 @@ function ClearAll(){
   realValue = ""
   clear = true
 }
-theVisibility = "hidden"
 function Time(){
   instanceDate = new Date();
   hours = instanceDate.getHours();
@@ -42,6 +41,9 @@ function Time(){
   timeChange[2].innerHTML = minutes;
   timeChange[3].innerHTML = ':';
   timeChange[4].innerHTML = seconds;
+}
+
+theVisibility = "hidden"
   if (theVisibility == "hidden"){
     theVisibility = "visible"
   }
@@ -50,9 +52,9 @@ function Time(){
   }
   timeChange[1].style.visibility = theVisibility
   timeChange[3].style.visibility = theVisibility
-}
-// Time();
-setInterval(Time,500)
+
+  // Time();
+  setInterval(Time,3)
 
 
 
