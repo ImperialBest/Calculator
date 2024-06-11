@@ -51,20 +51,9 @@ function Time(){
     timeChange[1].style.visibility = theVisibility
     timeChange[3].style.visibility = theVisibility
 }
-
-
   // Time();
   setInterval(Time,500)
-
-
-
-
-
-
-
-
-
-
+  
 // function Exponential(){
 //   expo = '^' + show[0].value + ' = ' + show[0].value ** show[0].value
 //   show[0].value += expo

@@ -26,12 +26,6 @@ function ShowValue(num){
 function ShowAnswer(){
     userInput.value += '=' + eval(userInput.value)
 }
-
-
-
-
-
-
 button = -1
 function Increm(){
     button1 = document.getElementById("but")
