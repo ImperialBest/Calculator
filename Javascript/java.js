@@ -20,7 +20,7 @@ function Answer(){
   New('Ans',answer)  
 }
 function DelKey(){
-  lengthOfInput = show[0].value.length
+  lengthOfInput = show[0].value.length 
   show[0].value = show[0].value.substring(0, lengthOfInput-1)
   realValue = show[0].value.substring(0, lengthOfInput-1)
   // console.log(lengthOfInput)
